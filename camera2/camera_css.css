@@ -1,0 +1,21 @@
+﻿ul{list-style-type: none;margin: 0;
+	padding: 0;}
+
+
+#wrapper{
+	width: 100px;
+	
+	position: relative;
+}
+
+
+
+#example{
+	height: 380px; width:500px;
+}
+
+
+#gallery{
+	margin: 5px 0;
+	background: #f6f6f6;
+}

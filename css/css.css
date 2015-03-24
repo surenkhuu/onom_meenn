@@ -1,0 +1,72 @@
+﻿
+
+html,body{ margin: 0; padding: 0; 
+
+ font-style: normal; border:solid 0px; height:100%; position:relative;
+	/*font-variant: small-caps;
+	font-weight: lighter;
+	line-height: normal;
+	font-size-adjust: none;*/
+	background:url(../image/noise.png) #f9f9f9;
+}
+
+
+table, td, th{ padding: 0; margin:0; border-collapse: collapse; vertical-align: middle; text-align: left; }
+
+#loginDiv{background:url(../image/noise.png) #f9f9f9;}
+#loginForm{}
+
+.leftMenu{ padding:5px; background:url(../image/noise.png) #e0e0e0; font-size:13px;}
+
+.leftMenu li{ border: solid 0px; padding:3px; padding-left:20px; margin:2px; border-radius:3px;}
+.leftMenu li a{ margin:0; width:100%; height:100%; color:#333;}
+
+.leftMenu li:hover{ background:#78909c; padding-left:17px;}
+.leftMenu li a:hover{ color:#FFF;}
+
+.infoTable th{ border: solid 1px; font-weight:lighter; font-size:9px;}
+
+.divTable{ padding:10px; border: solid 0px; background:url(../image/noise.png); position:relative;}
+.divTableDet{ background:#e5e9eb; display: inline-table;border:solid 1px; width:70px; height:70px; margin-right:10px;
+text-align:center; vertical-align:middle; padding-top:10px;}
+.divTableDet:hover{background:#ffff8d;}
+
+.divTableImg{ font-size:24px; line-height:1;}
+
+.divTableText{font-size:10px;}
+.ubDelete{ position: absolute;}
+
+
+#ubSection{ border: solid 1px #95abb5; padding:0; margin:10px; background:url(../image/noise.png) #e4ecf0;}
+.ubSectionTitle{ border-bottom:solid 1px #d9dddf; padding-left:20px; 
+ background:#349592;
+ background: -webkit-gradient(linear, left top, left bottom, from(#cfdee6), to(#b4c4cc));
+ background: -moz-linear-gradient(top, #cfdee6, #b4c4cc);
+ }
+
+.defInput input[type=text]{ border: solid 1px;}
+
+input[type=text] .defInput{ border: solid 1px;}
+
+.defInput{ border: solid 1px; background: #666;}
+
+
+#bioTable{ border:solid 1px #AAA; padding:10px; }
+#bioTable td{ padding-left:10px; padding-right:10px;}
+#bioTable th{ padding:5px 10px 5px 10px;}
+
+#bioTable input[type=text]{ margin:3px; width:100px; height:18px;
+padding: 2px 3px 2px 3px; 
+  background: #FFF;
+  background: -webkit-gradient(linear, left top, left bottom, from(#eeeeee), to(white));
+  background: -webkit-linear-gradient(#eeeeee, white);
+  /* Safari 5.1+, Chrome 10+ */
+  background: -moz-linear-gradient(top, #eeeeee, white);
+  background: -o-linear-gradient(#eeeeee, white);
+  background: -ms-linear-gradient(#eeeeee, white);
+  border: 1px solid #AAA;}
+  
+  .userInfo{ border:solid 1px #CCC; background:#FFC; padding:3px 5px 3px 5px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px}
